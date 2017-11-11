@@ -1,0 +1,4 @@
+<!--index.wxml-->
+<view wx:for="{{array}}"  wx:for-index="idx" wx:for-item="itemname">
+  {{idx+1}} '{{itemname}}'
+</view>
