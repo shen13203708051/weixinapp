@@ -1,0 +1,10 @@
+<view wx:for="{{array}}">
+  {{index+1}} : {{item}}
+</view>
+
+<button type="primary" plain="{{plain_1}}" disabled="{{disabled_1}}" bindtap="plus">
+加1
+</button>
+<button type="default" plain="{{plain_2}}" disabled="{{disabled_2}}" bindtap="minus">
+减1
+</button>
